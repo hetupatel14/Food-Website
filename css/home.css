@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Akshar', sans-serif;
+}
+
+.headers {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("/img/Group\ 1.png");
+    background-size: cover;
+    position: relative;
+    font-size: 5px;
+}
+
+.head {
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    position: relative;
+}
+
+nav {
+    padding-top: 20px;
+    padding-right: 20px;
+    display: flex;
+    background-origin: content-box;
+    background-color: none;
+    height: 90px;
+}
+
+nav img {
+    float: left;
+    width: 200px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 4px 15px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: #552a14;
+    text-decoration: none;
+    font-size: 19px;
+    transition: 0.5s;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #fcc651;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+.about {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    border-radius: 10px;
+}
+
+.container {
+    margin-bottom: 100px;
+
+}
+
+.container img {
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.container2 button {
+    background-color: #fcc651;
+    /* Green */
+    border: none;
+    color: #552a14;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    margin-top: 90px;
+    margin-left: 10px;
+    float: left;
+}
+
+.card button {
+    background-color: #e01c1d;
+    /* Green */
+    border: none;
+    color: white;
+
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.wrapper {
+    padding-top: 600px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+}
+.wrapper table{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.ellipse{
+    height: 15px;
+    width: 15px;
+    /* Setting Border Radius */
+    border-radius: 50%;
+}
+.dots li{
+    list-style: none;
+    flex: 1;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding: 4px;
+    position: relative;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 120px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+.button{
+    background-color: #e01c1d;
+    border: none;
+    color: white;
+    padding: 13px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+input[placeholder]{
+    padding-left: 20px;
+}
+.formsection{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("/img/Group5.png");
+    background-size: cover;
+    position: relative;
+}
+.contact{
+    background-image: url("/img/footer\ \(1\).png");
+    min-height: 80vh;
+    width: 95%;
+    background-size: cover;
+    position: relative;
+}
+.info{
+    color: white;
+    float: right;
+    padding-right: 250px;
+    margin-top: -80px;
+}
+.info p{
+    padding-left: 50px;
+    margin-top: -30px;
+}
+.socialmedia {
+    flex: 1;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.socialmedia ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 4px 8px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.socialmedia ul li a {
+    text-decoration: none;
+    font-size: 19px;
+    transition: 0.5s;
+}
+.fa-instagram {  
+    background: white;  
+    color: black;
+    border-radius: 50%;
+    display: block;
+    border: 2px solid white;
+    padding: 10px;  
+  }  
+.fa-facebook {  
+    background: white;  
+    color: black;
+    border-radius: 50%;
+    display: block;
+    border: 2px solid white;
+    padding: 10px;
+    padding-left: 13px;  
+    padding-right: 13px;  
+  }  
+.fa-twitter {  
+    background: white;  
+    color:black;
+    border-radius: 50%;
+    display: block;
+    border: 2px solid white;
+    padding: 10px;  
+  }  
+.fa-whatsapp {  
+    background: white;  
+    color:black;
+    border-radius: 50%;
+    display: block;
+    border: 2px solid white;
+    padding: 10px;  
+}  
